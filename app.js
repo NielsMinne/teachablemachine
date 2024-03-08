@@ -1,4 +1,4 @@
-const URL = "../files/";
+const URL = window.location.protocol + "//" + window.location.host + "/files/";
       let model, webcam, labelContainer, maxPredictions;
       let resemblances = []; // Array to store the units of resemblance
 
